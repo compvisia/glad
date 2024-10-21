@@ -1,7 +1,7 @@
 project('glad', 'cpp', default_options : ['cpp_std=c++20'])
 
 src_files = files(
-  'src/glad.c',
+  'src/glad.cpp',
   'include/glad/glad.h',
   'include/KHR/khrplatform.h',
 )
